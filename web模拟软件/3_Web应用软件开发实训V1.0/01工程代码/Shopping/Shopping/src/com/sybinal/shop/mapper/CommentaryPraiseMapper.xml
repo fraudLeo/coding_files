@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sybinal.shop.mapper.CommentaryPraiseMapper" >
+  <resultMap id="BaseResultMap" type="com.sybinal.shop.model.CommentaryPraise" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="interaction_detail_id" property="interactionDetailId" jdbcType="INTEGER" />
+    <result column="make_emp" property="makeEmp" jdbcType="INTEGER" />
+    <result column="make_date" property="makeDate" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, interaction_detail_id, make_emp, make_date
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from note_data_commentary_praise
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from note_data_commentary_praise
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.sybinal.shop.model.CommentaryPraise" >
+    insert into note_data_commentary_praise (id, interaction_detail_id, make_emp, 
+      make_date)
+    values (#{id,jdbcType=INTEGER}, #{interactionDetailId,jdbcType=INTEGER}, #{makeEmp,jdbcType=INTEGER}, 
+      #{makeDate,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.sybinal.shop.model.CommentaryPraise" >
+    insert into note_data_commentary_praise
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="interactionDetailId != null" >
+        interaction_detail_id,
+      </if>
+      <if test="makeEmp != null" >
+        make_emp,
+      </if>
+      <if test="makeDate != null" >
+        make_date,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="interactionDetailId != null" >
+        #{interactionDetailId,jdbcType=INTEGER},
+      </if>
+      <if test="makeEmp != null" >
+        #{makeEmp,jdbcType=INTEGER},
+      </if>
+      <if test="makeDate != null" >
+        #{makeDate,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.sybinal.shop.model.CommentaryPraise" >
+    update note_data_commentary_praise
+    <set >
+      <if test="interactionDetailId != null" >
+        interaction_detail_id = #{interactionDetailId,jdbcType=INTEGER},
+      </if>
+      <if test="makeEmp != null" >
+        make_emp = #{makeEmp,jdbcType=INTEGER},
+      </if>
+      <if test="makeDate != null" >
+        make_date = #{makeDate,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.sybinal.shop.model.CommentaryPraise" >
+    update note_data_commentary_praise
+    set interaction_detail_id = #{interactionDetailId,jdbcType=INTEGER},
+      make_emp = #{makeEmp,jdbcType=INTEGER},
+      make_date = #{makeDate,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

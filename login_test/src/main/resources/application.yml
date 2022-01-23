@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/login?serverTimeZone=UTC
+      username: root
+      password: 666666
+
+  thymeleaf:
+    servlet:
+      content-type: text/html
+    enabled: true
+    encoding: UTF-8
+    prefix: classpath:/static/
+    suffix: .html

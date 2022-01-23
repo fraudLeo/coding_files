@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 1000px;
+            height: 1000px;
+            background-color: pink;
+        }
+    </style>
+
+    <script src="js/echarts.min.js"></script>
+</head>
+<body>
+
+
+    <div class="box"></div>
+    <script>
+     var myChart = echarts.init(document.querySelector(".box"))
+
+     var option = {
+         title: {
+             text: 'ECharts 入门案例'
+         },
+         tooltip: {},
+         legend: {
+             data: ['销量']
+         },
+         xAxis: {
+             data: ["衬衫","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
+         },
+         yAxis: {},
+         series: [
+             {
+                 name: '销量',
+                 type: 'bar',
+                 data: [5,20,36,10,12,20]
+             }
+         ]
+     };
+     myChart.setOption(option);
+    </script>
+</body>
+</html>

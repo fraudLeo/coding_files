@@ -1,0 +1,53 @@
+country: china
+province: beijing
+city: beijing
+area: haidian
+
+server:
+  port: 8080
+
+party: true
+
+birthday: 2002-02-02
+
+user:
+  name: itheima
+  age: 19
+
+#重名的标签会报错
+user2:
+  name: itheima
+  age: 19
+  name1: itheima
+
+likes:
+  - game
+  - music
+  - sleep
+
+likes2: [ game,music,sleep ]
+
+users:
+  - name: zhansan
+    age: 18
+  - name: lisi
+    age: 17
+
+users3: [ { name: zhangsan,age: lisi },{ name: lisi,age: 18 } ]
+
+
+baseDir: c:\win10
+#使用${属性名}引用数据
+tempDir: ${baseDir}\temp
+
+logging.level.root: error
+
+
+#1:创建一个类,封装下面的数据
+#2:由spring帮我们去加载数据到对象中,一定要告诉spring加载这组信息
+#3:使用的时候从spring中直接获取信息使用
+datasource:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost/springboot_db
+  username: root
+  password: 666666

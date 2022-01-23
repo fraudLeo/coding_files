@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: alltogether
+Implementation-Version: 0.0.1-SNAPSHOT
+Spring-Boot-Layers-Index: WEB-INF/layers.idx
+Start-Class: com.all.AlltogetherApplication
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+Build-Jdk-Spec: 1.8
+Spring-Boot-Version: 2.6.2
+Created-By: Maven WAR Plugin 3.3.2
+Main-Class: org.springframework.boot.loader.WarLauncher
+

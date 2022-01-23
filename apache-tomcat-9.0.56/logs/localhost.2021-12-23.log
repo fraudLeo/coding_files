@@ -1,0 +1,50 @@
+23-Dec-2021 09:44:19.487 信息 [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+23-Dec-2021 09:44:20.808 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+23-Dec-2021 09:44:22.523 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Dec-2021 09:44:22.523 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Dec-2021 09:44:22.525 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1bdc5006')
+23-Dec-2021 09:45:58.686 信息 [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+23-Dec-2021 09:45:59.926 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+23-Dec-2021 09:46:00.709 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Dec-2021 09:46:00.710 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Dec-2021 09:46:00.712 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@44b4b54')
+23-Dec-2021 10:25:13.903 信息 [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+23-Dec-2021 10:25:15.155 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+23-Dec-2021 10:25:15.979 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Dec-2021 10:25:15.979 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Dec-2021 10:25:15.983 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@535aa7c7')
+23-Dec-2021 10:28:39.382 信息 [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+23-Dec-2021 10:28:40.715 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+23-Dec-2021 10:28:41.558 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Dec-2021 10:28:41.558 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Dec-2021 10:28:41.558 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@20ddc780')
+23-Dec-2021 11:19:45.564 信息 [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+23-Dec-2021 11:19:46.755 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+23-Dec-2021 11:19:47.545 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Dec-2021 11:19:47.545 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Dec-2021 11:19:47.548 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@128d397c')
+23-Dec-2021 14:35:41.311 信息 [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+23-Dec-2021 14:35:43.334 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+23-Dec-2021 14:35:44.876 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Dec-2021 14:35:44.876 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Dec-2021 14:35:44.879 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6f00c40e')
+23-Dec-2021 14:36:11.981 信息 [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-Dec-2021 14:41:16.229 信息 [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+23-Dec-2021 14:41:16.229 信息 [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Dec-2021 14:42:04.436 信息 [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+23-Dec-2021 14:42:07.867 信息 [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+23-Dec-2021 14:42:08.937 信息 [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+23-Dec-2021 14:42:12.552 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+23-Dec-2021 14:42:16.026 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Dec-2021 14:42:16.026 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Dec-2021 14:42:16.028 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@14919b5c')
+23-Dec-2021 14:42:16.144 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+23-Dec-2021 14:42:16.144 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+23-Dec-2021 14:42:16.147 信息 [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+23-Dec-2021 14:43:26.666 信息 [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-Dec-2021 15:51:39.166 信息 [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+23-Dec-2021 15:51:42.098 信息 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+23-Dec-2021 15:51:45.603 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Dec-2021 15:51:45.603 信息 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Dec-2021 15:51:45.606 信息 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@89cef1a')
+23-Dec-2021 15:52:55.300 信息 [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'

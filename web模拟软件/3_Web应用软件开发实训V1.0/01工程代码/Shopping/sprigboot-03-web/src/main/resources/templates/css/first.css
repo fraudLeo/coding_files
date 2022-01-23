@@ -1,0 +1,182 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    line-height: 1.5;
+}
+.form{
+    width: 982px;
+    margin: 1em auto;
+}
+.form a{
+    color: #00a1d6;
+}
+.form h2{
+    text-align: center;
+    font-size: 38px;
+    border-bottom: 1px solid #ddd;
+    height: 30px;
+    margin-bottom: 60px;
+}
+.form h2 span{
+    background-color: #fff;
+    padding: 0 20px;
+}
+.form .form-area{
+    width: 423px;
+    margin: 0 auto;
+}
+.form-area .form-item{
+    margin: 50px 0;
+    position: relative;
+}
+input[type="text"], input[type="password"]{
+    border: 1px solid #dcdfe6;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 40px;
+    text-indent: 1em;
+    font-size: 14px;
+    color: #606266;
+    font-family:"PingFsngSC-Medium";
+}
+input[type="text"]:hover, input[type="password"]:hover{
+    border-color: #c0c4cc;
+}
+input[type="text"]::placeholder, input[type="password"]::placeholder{
+    color: #ccc;
+}
+input[type="text"]:focus, input[type="password"]:focus{
+    border-color: #00a1d6;
+}
+.form-area .form-item .select .select-item{
+    float: left;
+    height: 40px;
+    width: 140px;
+    border: 1px solid #dcdfe6;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    box-sizing: border-box;
+    border-right: none;
+    position: relative;
+}
+.form-area .form-item .select .input{
+    float: left;
+    height: 40px;
+    width: 283px;
+} 
+
+.form-area .form-item .select .input input{
+    border-radius: 0 4px 4px 0;
+}
+.form-area .form-item .select .select-item .title{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    color: #909399;
+    cursor: pointer;
+}
+.form-area .form-item .select .select-item ul{
+    max-height: 256px; /*最大高度*/
+    background-color: #fff;
+    border: 1px solid #dcdfe6;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #606266;
+    padding: 10px 0;
+    font-size: 14px;
+    overflow-y: auto;
+    display: none;
+}
+.form-area .form-item .select .select-item ul li{
+    height: 34px;
+    padding: 0 20px;
+    cursor: pointer;
+    line-height: 34px;
+}
+.form-area .form-item .select .select-item ul li:hover{
+    background-color: #f5f7fa;
+}
+.form-area .form-item .select .select-item ul li.active{
+    color: #00a1d6;      
+    font-weight: bold;
+}
+/*统一设置按钮样式*/
+button{
+    height: 40px;
+    background-color: #00a1d6;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+
+}
+button:hover{
+    background-color: #33b4de;
+
+}
+.form-area .form-item .btn-sncode{
+    width: 130px;
+    height: 36px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+.form-area .readme{
+    margin-top: -40px;
+    margin-bottom: -40px;
+    font-size: 12px;
+}
+
+.form-area .readme .checkbox{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #dcdfe6;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-area .readme input{
+    display: none;
+}
+.form-area .readme input:checked+.checkbox{
+    border-color: #00a1d6;
+}
+.form-area .readme input:checked+.checkbox::after{
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-color: #00a1d6;
+    border-radius: 2px;
+    margin-left: 2.5px;
+    margin-top: 2.5px;
+
+}
+.form-area .form-item .btn-zhuce{
+    width: 100%;
+}
+.form-area .tip{
+    position:relative;
+}
+.form-area .tip a{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: -20px;
+}
+button:disabled{
+    background-color: #f5f5f5;
+    color: (0,0,0,.25);
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    cursor: not-allowed;
+}
